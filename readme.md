@@ -25,7 +25,7 @@ We are currently at Revision 2. Changelog is below:
  - Change of parts in the power section due to sourcing issue.
  
 **Revision 1 (January 2020)**
-- Initial Design
+ - Initial Design
 
 ## Minimal Version
 
@@ -48,7 +48,7 @@ We are currently at Revision 2. Changelog is below:
  - Change of parts in the power section due to sourcing issue.
  
 **Revision 1 (April 2020)**
-- Initial Design (Based on Standard version)
+ - Initial Design (Based on Standard version)
 
 ## What is provided
 The goal of this repository is to enable you to build this on your own as easy as possible (although I originally plan to sell this as a kit as well). **I've included all of the schematics, gerbers, BOMs, and display driver firmware for you to use.** And this work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/).
@@ -56,3 +56,13 @@ The goal of this repository is to enable you to build this on your own as easy a
 Unfortunately. I have to excluded the 3D models use to render the board in KiCAD because I don't know how each of them was licensed. They are all from GrabCad and you could search and download them by yourself.
 
 **Note: Due to this, there might be a popup warning you about "3D model Search Path" in PCBNew. I honestly don't know how to fix this but it will not affect any KiCAD functionality.**
+
+## Credits
+ - DIP switch model by austfox: https://grabcad.com/library/dip-switches-1
+ - 1.44inch LCD model by John: https://grabcad.com/library/1-44in-lcd-tft-1
+ - Sliding switch model by Jonn: https://grabcad.com/library/selector-switch-assortment-1
+ - Trimpot model by Markus Walter: https://grabcad.com/library/bourns-3362p-1-102lf
+ - DIP ICs in socket models by Dirk Wouters: https://grabcad.com/library/ic-dip-packages-with-sockets-in-pitch-7-62mm-1
+ - TO-220 package model by Egor Chugay: https://grabcad.com/library/to-220-transistor-package-1
+ - DC Power Jack model by J. F. Gomez: https://grabcad.com/library/dc-power-jack-5-5mm-x-2-1mm-2-54mm-pitch-1
+ - 3306P1102, 3362P_1, NE555DR, OS102011MA1QN1, TO229P239X654X978-3P footprint symbols by SamacSys
