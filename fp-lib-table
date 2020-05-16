@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name SamacSys_Parts)(type KiCad)(uri ${KIPRJMOD}/pretty/SamacSys_Parts.pretty)(options "")(descr ""))
+  (lib (name automata)(type KiCad)(uri ${KIPRJMOD}/pretty/automata.pretty)(options "")(descr ""))
+  (lib (name logo)(type KiCad)(uri ${KIPRJMOD}/pretty/logo.pretty)(options "")(descr ""))
+)

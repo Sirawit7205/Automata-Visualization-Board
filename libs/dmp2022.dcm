@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DMP2022LSS
+D -10A Id, -20V Vds, P-Channel Power MOSFET, 13mOhm Ron, 56.9nC Qg (typ), SO-8
+K P-Channel MOSFET
+F https://www.diodes.com/assets/Datasheets/ds31373.pdf
+$ENDCMP
+#
+#End Doc Library

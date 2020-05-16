@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name automata_ic)(type Legacy)(uri ${KIPRJMOD}/libs/automata_ic.lib)(options "")(descr ""))
+  (lib (name bargraph8)(type Legacy)(uri ${KIPRJMOD}/libs/bargraph8.lib)(options "")(descr ""))
+  (lib (name SamacSys_Parts)(type Legacy)(uri ${KIPRJMOD}/libs/SamacSys_Parts.lib)(options "")(descr ""))
+  (lib (name dmp2022)(type Legacy)(uri ${KIPRJMOD}/libs/dmp2022.lib)(options "")(descr ""))
+  (lib (name automata-rescue)(type Legacy)(uri ${KIPRJMOD}/automata-rescue.lib)(options "")(descr ""))
+)

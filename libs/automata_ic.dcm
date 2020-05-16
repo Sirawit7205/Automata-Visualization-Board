@@ -1,0 +1,87 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 4006
+D 18-stage Shift Register
+K 18-stage Shift Register
+F http://www.ti.com/lit/ds/symlink/cd4006b-mil.pdf
+$ENDCMP
+#
+$CMP 4024
+D 7-bit Ripple Counter
+K 7-bit Ripple Counter
+F https://www.ti.com/lit/ds/symlink/cd4024b.pdf
+$ENDCMP
+#
+$CMP 4030
+D Quad 2-input XOR gate
+K Quad 2-input XOR gate
+F https://www.ti.com/lit/ds/symlink/cd4030b.pdf
+$ENDCMP
+#
+$CMP 4512
+D 8-channel Data Selector
+K 8-channel Data Selector
+F https://www.ti.com/lit/ds/symlink/cd4512b.pdf
+$ENDCMP
+#
+$CMP 74HC08
+D Quad 2-input AND
+K CMOS AND gate
+F http://www.ti.com/lit/ds/symlink/sn74hc08.pdf
+$ENDCMP
+#
+$CMP 74HC11
+D Triple 3-input AND
+K CMOS AND gate
+F https://www.ti.com/lit/ds/symlink/cd74hct11.pdf
+$ENDCMP
+#
+$CMP 74HC139
+D Dual 2-to-4 line decoder/demultiplexer
+K CMOS 2-to-4 line decoder
+F https://www.ti.com/lit/ds/symlink/sn74hc139-q1.pdf
+$ENDCMP
+#
+$CMP 74HC157
+D Quad 2-input Multiplexer
+K Quad 2-input Multiplexer
+F http://www.ti.com/lit/ds/schs153c/schs153c.pdf
+$ENDCMP
+#
+$CMP 74HC164
+D 8-bit Serial-in/Parallel-out Shift Register
+K CMOS 8-bit Shift Register
+F http://www.ti.com/lit/ds/symlink/sn54hc164-sp.pdf
+$ENDCMP
+#
+$CMP 74HC165
+D 8-bit Parallel Load Shift Register
+K 8-bit Parallel Load Shift Register
+F http://www.ti.com/lit/ds/symlink/sn74hc165.pdf
+$ENDCMP
+#
+$CMP 74HC4040
+D CMOS 12-stage Binary Counter
+K CMOS 12-stage Binary Counter
+F http://www.ti.com/lit/ds/schs203d/schs203d.pdf
+$ENDCMP
+#
+$CMP MC14517B
+D Dual 64-bit Static Shift Register
+K Dual 64-bit Static Shift Register
+F https://www.onsemi.com/pub/Collateral/MC14517B-D.PDF
+$ENDCMP
+#
+$CMP MC14557B
+D 1-to-64 Bit Variable Length Shift Register
+K 1-to-64 Bit Variable Length Shift Register
+F https://www.onsemi.com/pub/Collateral/MC14557-D.PDF
+$ENDCMP
+#
+$CMP TC40H373
+D Octal Transparent Latch (Same as 74HC373)
+K Octal Transparent Latch
+F https://www.ti.com/lit/ds/symlink/cd54hc373.pdf
+$ENDCMP
+#
+#End Doc Library

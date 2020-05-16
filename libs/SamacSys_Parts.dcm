@@ -1,0 +1,33 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555D
+D NE555DG4, Timer, 4.5 To 16V, 8-Pin SOIC-8
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP 3306P-1-102
+D Bourns 3306P Series Through Hole Cermet Trimmer Resistor with Pin Terminations, 1k +/-25% 1/5W +/-250ppm/C Top Adjust
+K
+F https://componentsearchengine.com/Datasheets/1/3306P-1-102.pdf
+$ENDCMP
+#
+$CMP IRFU5305PBF
+D MOSFET P-Channel 55V 31A IPAK Infineon IRFU5305PBF P-channel MOSFET Transistor, 31 A, 55 V, 3-Pin IPAK
+K
+F https://componentsearchengine.com/Datasheets/1/IRFU5305PBF.pdf
+$ENDCMP
+#
+$CMP OS102011MS2QN1
+D Switch Slide Miniature SPDT 0.1A 12VDC Through Hole Slide Switch SPDT On-On 0.1 A@ 12 V dc Slide
+K
+F https://componentsearchengine.com/Datasheets/1/OS102011MS2QN1.pdf
+$ENDCMP
+#
+$CMP 3362P-1-102TLF
+D TRIMMER, SINGLE-TURN, CERMET, 1/4IN. SQ, TOP ADJ., 0.5W, 10%, 1K OHM
+K
+F https://componentsearchengine.com/Datasheets/1/3362P-1-102TLF.pdf
+$ENDCMP
+#
+#End Doc Library
