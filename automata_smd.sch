@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:automata_smd-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -1060,17 +1059,6 @@ Text GLabel 13500 3550 2    50   Input ~ 0
 SCLK
 Wire Wire Line
 	13500 3550 13350 3550
-$Comp
-L Timer:TLC555 U11
-U 1 1 5FC28C3D
-P 12850 3550
-F 0 "U11" H 12850 4128 50  0000 C CNN
-F 1 "TLC555" H 12850 4037 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 12900 3300 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tlc555.pdf" H 13500 3000 50  0001 C CNN
-	1    12850 3550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13400 3150 13400 3350
 Text Notes 12400 4400 0    100  ~ 0
@@ -2277,17 +2265,6 @@ Wire Wire Line
 	13250 1300 13400 1300
 Text GLabel 13250 1300 0    50   Input ~ 0
 RUN
-$Comp
-L Timer:TLC555 U10
-U 1 1 5DD13032
-P 12850 1700
-F 0 "U10" H 12850 2278 50  0000 C CNN
-F 1 "TLC555" H 12850 2187 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm" H 12900 1450 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tlc555.pdf" H 13500 1150 50  0001 C CNN
-	1    12850 1700
-	1    0    0    -1  
-$EndComp
 Text Notes 13250 2550 2    100  ~ 0
 Main Clock
 Wire Wire Line
@@ -2939,17 +2916,6 @@ Wire Wire Line
 	7800 7900 7700 7900
 Wire Wire Line
 	8300 7500 8000 7500
-$Comp
-L 74xGxx:74AHC1G04 U13
-U 1 1 634E9617
-P 6250 8500
-F 0 "U13" H 6500 8750 50  0000 C CNN
-F 1 "74AHC1G04" H 6500 8650 50  0000 C CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 6250 8500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 6250 8500 50  0001 C CNN
-	1    6250 8500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	6500 8500 6700 8500
 $Comp
@@ -2967,17 +2933,6 @@ Wire Wire Line
 	5950 8350 6250 8350
 Wire Wire Line
 	6250 8350 6250 8400
-$Comp
-L automata_ic:MC14557B U19
-U 1 1 63E967B8
-P 2750 13150
-F 0 "U19" H 2750 14281 50  0000 C CNN
-F 1 "MC14557B" H 2750 14190 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-16W_7.5x10.3mm_Pitch1.27mm" H 2750 14350 50  0001 C CNN
-F 3 "" H 2750 14350 50  0001 C CNN
-	1    2750 13150
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+5V #PWR0127
 U 1 1 64103BE1
@@ -3070,17 +3025,6 @@ Wire Wire Line
 	3300 12500 3900 12500
 NoConn ~ 2200 12500
 NoConn ~ 3300 12600
-$Comp
-L automata_ic:MC14557B U20
-U 1 1 65159900
-P 6400 13150
-F 0 "U20" H 6400 14281 50  0000 C CNN
-F 1 "MC14557B" H 6400 14190 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-16W_7.5x10.3mm_Pitch1.27mm" H 6400 14350 50  0001 C CNN
-F 3 "" H 6400 14350 50  0001 C CNN
-	1    6400 13150
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:+5V #PWR0130
 U 1 1 6515990A
@@ -3624,8 +3568,6 @@ Wire Wire Line
 	3600 8350 3700 8350
 Wire Wire Line
 	3700 8350 3700 8400
-Wire Wire Line
-	6250 8600 6250 8650
 $Comp
 L Device:C C24
 U 1 1 5F57E517
@@ -3723,17 +3665,6 @@ Wire Wire Line
 	20350 4600 20600 4600
 Wire Wire Line
 	20600 4600 20600 4650
-$Comp
-L MCU_Microchip_ATmega:ATmega328P-AU U23
-U 1 1 5F0B65FB
-P 16350 4550
-F 0 "U23" H 15200 4750 50  0000 C CNN
-F 1 "ATmega328P-AU" H 15450 4650 50  0000 C CNN
-F 2 "Housings_QFP:TQFP-32_7x7mm_Pitch0.8mm" H 16350 4550 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 16350 4550 50  0001 C CNN
-	1    16350 4550
-	1    0    0    -1  
-$EndComp
 NoConn ~ 15750 3550
 NoConn ~ 15750 3650
 $Comp
@@ -3890,6 +3821,63 @@ F 3 "https://www.diodes.com/assets/Datasheets/ds31373.pdf" H 16400 1400 50  0001
 $EndComp
 Wire Wire Line
 	15850 1050 16200 1050
+$Comp
+L automata_ic:MC14557B U19
+U 1 1 5F215ED0
+P 2750 13150
+F 0 "U19" H 2750 14281 50  0000 C CNN
+F 1 "MC14557B" H 2750 14190 50  0000 C CNN
+F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 2750 14350 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/MC14557-D.PDF" H 2750 14350 50  0001 C CNN
+	1    2750 13150
+	1    0    0    -1  
+$EndComp
+$Comp
+L automata_ic:MC14557B U20
+U 1 1 5F216B38
+P 6400 13150
+F 0 "U20" H 6400 14281 50  0000 C CNN
+F 1 "MC14557B" H 6400 14190 50  0000 C CNN
+F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 6400 14350 50  0001 C CNN
+F 3 "https://www.onsemi.com/pub/Collateral/MC14557-D.PDF" H 6400 14350 50  0001 C CNN
+	1    6400 13150
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_Microchip_ATmega:ATmega328P-AU U23
+U 1 1 5F2A6FBD
+P 16350 4550
+F 0 "U23" H 15450 4600 50  0000 C CNN
+F 1 "ATmega328P-AU" H 15450 4500 50  0000 C CNN
+F 2 "Package_QFP:TQFP-32_7x7mm_P0.8mm" H 16350 4550 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 16350 4550 50  0001 C CNN
+	1    16350 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L automata_ic:TLC555-Timer U10
+U 1 1 5F4505FA
+P 12850 1700
+F 0 "U10" H 12850 2281 50  0000 C CNN
+F 1 "TLC555-Timer" H 12850 2190 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 12900 1450 50  0001 L CNN
+F 3 "" H 13500 1150 50  0001 C CNN
+	1    12850 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L automata_ic:TLC555-Timer U11
+U 1 1 5F451482
+P 12850 3550
+F 0 "U11" H 12850 4131 50  0000 C CNN
+F 1 "TLC555-Timer" H 12850 4040 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 12900 3300 50  0001 L CNN
+F 3 "" H 13500 3000 50  0001 C CNN
+	1    12850 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6250 8600 6250 8650
 Wire Bus Line
 	8600 1450 8600 3950
 Wire Bus Line
@@ -3898,4 +3886,15 @@ Wire Bus Line
 	5650 1300 5650 2100
 Wire Bus Line
 	8600 3950 8600 5300
+$Comp
+L 74xGxx:74AHC1G04 U13
+U 1 1 634E9617
+P 6250 8500
+F 0 "U13" H 6500 8750 50  0000 C CNN
+F 1 "74AHC1G04" H 6500 8650 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5" H 6250 8500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 6250 8500 50  0001 C CNN
+	1    6250 8500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

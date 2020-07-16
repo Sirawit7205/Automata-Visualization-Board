@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:automata-cache
 EELAYER 30 0
 EELAYER END
 $Descr A2 23386 16535
@@ -1138,17 +1137,6 @@ Text GLabel 13500 3550 2    50   Input ~ 0
 SCLK
 Wire Wire Line
 	13500 3550 13350 3550
-$Comp
-L Timer:TLC555 U10
-U 1 1 5FC28C3D
-P 12850 3550
-F 0 "U10" H 12850 4128 50  0000 C CNN
-F 1 "TLC555" H 12850 4037 50  0000 C CNN
-F 2 "Housings_DIP:DIP-8_W7.62mm_Socket" H 12900 3300 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tlc555.pdf" H 13500 3000 50  0001 C CNN
-	1    12850 3550
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	13400 3150 13400 3350
 Text Notes 12400 4400 0    100  ~ 0
@@ -1378,17 +1366,6 @@ F 1 "74HC11" H 15350 8134 50  0000 C CNN
 F 2 "Housings_DIP:DIP-14_W7.62mm_Socket" H 15350 7900 50  0001 C CNN
 F 3 "" H 15350 7900 50  0001 C CNN
 	1    15350 7900
-	1    0    0    -1  
-$EndComp
-$Comp
-L MCU_Microchip_ATmega:ATmega328-PU U26
-U 1 1 5E257EE8
-P 16350 4550
-F 0 "U26" H 15706 4596 50  0000 R CNN
-F 1 "ATmega328-PU" H 15706 4505 50  0000 R CNN
-F 2 "Housings_DIP:DIP-28_W7.62mm_Socket" H 16350 4550 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 16350 4550 50  0001 C CNN
-	1    16350 4550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -3696,17 +3673,6 @@ Wire Wire Line
 	13250 1300 13400 1300
 Text GLabel 13250 1300 0    50   Input ~ 0
 RUN
-$Comp
-L Timer:TLC555 U9
-U 1 1 5DD13032
-P 12850 1700
-F 0 "U9" H 12850 2278 50  0000 C CNN
-F 1 "TLC555" H 12850 2187 50  0000 C CNN
-F 2 "Housings_DIP:DIP-8_W7.62mm_Socket" H 12900 1450 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/tlc555.pdf" H 13500 1150 50  0001 C CNN
-	1    12850 1700
-	1    0    0    -1  
-$EndComp
 Text Notes 13250 2550 2    100  ~ 0
 Main Clock
 Wire Wire Line
@@ -4855,6 +4821,39 @@ F 3 "" H 21650 9250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	21650 9200 21650 9250
+$Comp
+L MCU_Microchip_ATmega:ATmega328-PU U26
+U 1 1 5F7E9244
+P 16350 4550
+F 0 "U26" H 15706 4596 50  0000 R CNN
+F 1 "ATmega328-PU" H 15706 4505 50  0000 R CNN
+F 2 "Package_DIP:DIP-28_W7.62mm_Socket" H 16350 4550 50  0001 C CIN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20with%20picoPower%20Technology%20Data%20Sheet%2040001984A.pdf" H 16350 4550 50  0001 C CNN
+	1    16350 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L automata_ic:TLC555-Timer U9
+U 1 1 5F7EEB35
+P 12850 1700
+F 0 "U9" H 12850 2281 50  0000 C CNN
+F 1 "TLC555-Timer" H 12850 2190 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 12900 1450 50  0001 L CNN
+F 3 "" H 13500 1150 50  0001 C CNN
+	1    12850 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L automata_ic:TLC555-Timer U10
+U 1 1 5F7EFAE5
+P 12850 3550
+F 0 "U10" H 12850 4131 50  0000 C CNN
+F 1 "TLC555-Timer" H 12850 4040 50  0000 C CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 12900 3300 50  0001 L CNN
+F 3 "" H 13500 3000 50  0001 C CNN
+	1    12850 3550
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	8600 1450 8600 3950
 Wire Bus Line
