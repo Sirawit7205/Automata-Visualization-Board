@@ -145,7 +145,7 @@ uint8_t readRules() {
 void attemptStateChange() {
   
   //check for state changes
-  if(currentState == RUN && (PIND & 0b00010000) == 0)
+  if(currentState == RUN && (PIND & 0b00010000) == 0b00010000)
     currentState = RESET;
   else if(currentState == RESET)
     currentState = INITWAIT;
