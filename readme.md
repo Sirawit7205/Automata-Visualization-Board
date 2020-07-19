@@ -18,7 +18,15 @@ Standard version is a large board of size 247x127mm (9.7x5in), suitable for putt
  - Drawing speed adjustment.
  - All through hole design. Should be relatively easy to solder.
 
-We are currently at Revision 2. Changelog is below:
+We are currently at Revision 3. Changelog is below:
+
+**Revision 3 (July 2020)**
+ - Fixed all of the issues found in rev 2.
+ - BOMs consolidated to lessen the unique parts count.
+ - New LFSR circuit, the rare CD4006 is no longer required.
+ - Updated all footprints to the latest version.
+ - Minor changes to the appearances of the PCB.
+
 **Revision 2 (May 2020)**
  - Fixed Connector orientation for the display and the DIP switch.
  - Connected GND to mounting holes
@@ -43,6 +51,7 @@ Minimal Version is a smaller board of size 129x72mm (5x3in). It is suitable for 
  - The PCB should be much cheaper to produce. It's still a little bit too large to fit in 10x10cm requirements for many cheap PCB fabs though, I might try to squeeze it down later.
 
 We are currently at Revision 3. Changelog is below:
+
 **Revision 3 (July 2020)**
  - Fixed all of the issues found in smd rev 2.
  - BOMs consolidated to lessen the unique parts count.
@@ -73,4 +82,5 @@ Unfortunately. I have to excluded the 3D models use to render the board in KiCAD
  - TO-220 package model by Egor Chugay: https://grabcad.com/library/to-220-transistor-package-1
  - DC Power Jack model by J. F. Gomez: https://grabcad.com/library/dc-power-jack-5-5mm-x-2-1mm-2-54mm-pitch-1
  - SMD 5032 Crystal 2-Pin model by Dirk Wouters: https://grabcad.com/library/smd-5032-crystal-2-pin-1
+ - LED Bar Graph model by austfox: https://grabcad.com/library/led-bar-graph-2
  - 3306P1102, 3362P_1, NE555DR, OS102011MA1QN1, TO229P239X654X978-3P footprint symbols by SamacSys
