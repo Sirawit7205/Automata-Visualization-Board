@@ -5,7 +5,7 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "Elementary Cellular Automata Generator [Standard]"
-Date "2020-07-19"
+Date "2020-08-26"
 Rev "3"
 Comp "Sleepy Pony Labs"
 Comment1 "Rev.3 : Inprovements from rev 2"
