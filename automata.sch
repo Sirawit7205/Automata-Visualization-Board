@@ -3273,41 +3273,6 @@ F 3 "" H 12850 2250 50  0001 C CNN
 	1    12850 2250
 	1    0    0    -1  
 $EndComp
-$Comp
-L Regulator_Linear:MCP1700-3302E_TO92 U27
-U 1 1 604FE86F
-P 18800 1050
-F 0 "U27" H 18800 808 50  0000 C CNN
-F 1 "MCP1700-3302E_TO92" H 18800 899 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 18800 850 50  0001 C CIN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001826D.pdf" H 18800 1050 50  0001 C CNN
-	1    18800 1050
-	1    0    0    1   
-$EndComp
-$Comp
-L Device:C C29
-U 1 1 605B50D5
-P 18250 1200
-F 0 "C29" H 18365 1246 50  0000 L CNN
-F 1 "1uF" H 18365 1155 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm" H 18288 1050 50  0001 C CNN
-F 3 "~" H 18250 1200 50  0001 C CNN
-	1    18250 1200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C30
-U 1 1 605B597E
-P 19350 1200
-F 0 "C30" H 19465 1246 50  0000 L CNN
-F 1 "1uF" H 19465 1155 50  0000 L CNN
-F 2 "Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm" H 19388 1050 50  0001 C CNN
-F 3 "~" H 19350 1200 50  0001 C CNN
-	1    19350 1200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	18250 1050 18500 1050
 Connection ~ 19350 1050
 $Comp
 L Device:CP C28
@@ -3346,10 +3311,7 @@ Wire Wire Line
 	17800 1350 17800 1450
 Wire Wire Line
 	17250 1050 17800 1050
-Wire Wire Line
-	17800 1050 18250 1050
 Connection ~ 17800 1050
-Connection ~ 18250 1050
 $Comp
 L Device:LED D7
 U 1 1 61588BCD
@@ -5031,6 +4993,46 @@ Wire Wire Line
 	4250 14200 4250 14550
 Wire Wire Line
 	4350 14200 4350 14550
+$Comp
+L InGarage_Regulator_Linear:HT73xx U27
+U 1 1 5F6E78EE
+P 18800 1050
+F 0 "U27" H 18800 1292 50  0000 C CNN
+F 1 "HT7333" H 18800 1201 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 18800 1200 50  0001 C CNN
+F 3 "" H 18800 1200 50  0001 C CNN
+	1    18800 1050
+	1    0    0    -1  
+$EndComp
+Text Notes 18500 2000 0    50   ~ 0
+Alternate parts:\nMCP1700-3302E\n
+$Comp
+L Device:CP C30
+U 1 1 5F9019FE
+P 19350 1200
+F 0 "C30" H 19468 1246 50  0000 L CNN
+F 1 "10uF" H 19468 1155 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 19388 1050 50  0001 C CNN
+F 3 "~" H 19350 1200 50  0001 C CNN
+	1    19350 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	17800 1050 18250 1050
+$Comp
+L Device:CP C29
+U 1 1 5F906BE4
+P 18250 1200
+F 0 "C29" H 18368 1246 50  0000 L CNN
+F 1 "10uF" H 18368 1155 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" H 18288 1050 50  0001 C CNN
+F 3 "~" H 18250 1200 50  0001 C CNN
+	1    18250 1200
+	1    0    0    -1  
+$EndComp
+Connection ~ 18250 1050
+Wire Wire Line
+	18250 1050 18500 1050
 Wire Bus Line
 	8600 1450 8600 3950
 Wire Bus Line
@@ -5039,4 +5041,6 @@ Wire Bus Line
 	5650 1300 5650 2100
 Wire Bus Line
 	8600 3950 8600 5300
+Text Notes 1750 3650 0    50   ~ 0
+Alternate parts:\nSS-12D02-VG4
 $EndSCHEMATC
