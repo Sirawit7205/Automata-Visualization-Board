@@ -5,10 +5,10 @@ $Descr A2 23386 16535
 encoding utf-8
 Sheet 1 1
 Title "Elementary Cellular Automata Generator [Standard]"
-Date "2020-08-26"
-Rev "3"
+Date "2020-10-03"
+Rev "4"
 Comp "Sleepy Pony Labs"
-Comment1 "Rev.3 : Inprovements from rev 2"
+Comment1 "Rev.4 : Routing Improvement"
 Comment2 "Verified working"
 Comment3 ""
 Comment4 ""
@@ -1837,12 +1837,12 @@ $Comp
 L automata_ic:74HC11 U12
 U 2 1 5DCAF89B
 P 15350 8250
-F 0 "U12" H 15350 8050 50  0000 C CNN
-F 1 "74HC11" H 15350 7950 50  0000 C CNN
+F 0 "U12" H 15350 8500 50  0000 C CNN
+F 1 "74HC11" H 15350 8600 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 15350 8250 50  0001 C CNN
 F 3 "" H 15350 8250 50  0001 C CNN
 	2    15350 8250
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 NoConn ~ 14700 8950
 Wire Wire Line
@@ -5033,6 +5033,8 @@ $EndComp
 Connection ~ 18250 1050
 Wire Wire Line
 	18250 1050 18500 1050
+Text Notes 1750 3650 0    50   ~ 0
+Alternate parts:\nSS-12D02-VG4
 Wire Bus Line
 	8600 1450 8600 3950
 Wire Bus Line
@@ -5041,6 +5043,4 @@ Wire Bus Line
 	5650 1300 5650 2100
 Wire Bus Line
 	8600 3950 8600 5300
-Text Notes 1750 3650 0    50   ~ 0
-Alternate parts:\nSS-12D02-VG4
 $EndSCHEMATC
