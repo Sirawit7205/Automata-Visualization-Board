@@ -3898,4 +3898,6 @@ Wire Bus Line
 	5650 1300 5650 2100
 Wire Bus Line
 	8600 3950 8600 5300
+Text Notes 3850 7050 0    50   ~ 0
+These are connected to GND.\nKicad messed up power rails when these are connected for some reason.\nI have to left these unconnected to be able to route the PCB.
 $EndSCHEMATC
