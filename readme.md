@@ -1,7 +1,6 @@
 # CMOS Elementary Automata Visualization Board
 
 This is an  open-source KiCad design files for a circuit that could generate and visualize [Elementary Automata](https://mathworld.wolfram.com/ElementaryCellularAutomaton.html) only by using common logic ICs. There are two versions available: Standard and Minimal. 
-**Disclaimer: Only the Standard version had been tested with real hardware. The Minimal version should theoretically work and will be tested soon but right now there are no guaranteed whatsoever that it will work.**
 
 ## Standard Version
 
